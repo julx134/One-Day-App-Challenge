@@ -8,3 +8,8 @@ March 16, 2020 @ 1:06 am:
 
 	-No mobile application description as of yet.
 
+March 16, 2020 @ 3:21 pm:
+
+	-Officially started working on the project. Will continually 	track my progross in this file.
+
+	-Project description: Simple app that will ask the user for 	a number and have the computer guess that number in the 	least amount of 'guesses' as possible. The computer will ask 	the user if the guesses is more or less than the target 	guess. More description to come as development progresses.
