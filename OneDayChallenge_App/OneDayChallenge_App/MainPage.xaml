@@ -7,11 +7,42 @@
              x:Class="OneDayChallenge_App.MainPage">
 
 
-    <Button
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"
-            Text = "Click Me"
-            Clicked ="Button_Clicked"></Button>
-
+    <StackLayout BackgroundColor="DarkGray">
+        <Frame BackgroundColor="DarkGray" HasShadow="True">
+            <Label Text="One Day App Challenge" TextColor="GhostWhite" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="80"/>
+        </Frame>
+        <BoxView Color="Coral" HeightRequest="10" HorizontalOptions="Fill" CornerRadius="10" Margin="10,0,10,30"/>
+        <Frame 
+            Margin="10"
+            BorderColor="White"
+            CornerRadius="110"
+            HeightRequest="200"
+            WidthRequest="200"
+            IsClippedToBounds="True"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <Image 
+                Source="capture.jpg"
+                Aspect="AspectFill"
+                Margin="-20"
+                HeightRequest="300"
+                WidthRequest="300" />
+        </Frame>
+        <Label 
+            Padding = "0,15,0,0"
+            HorizontalTextAlignment="Center"
+            TextColor="GhostWhite"
+            Text = "My name is Jules Gammad. This project was to see what I can accomplish in a day dedicated to learning the XAMARIN framework."
+            FontSize="35"/>
+        <Frame HasShadow="True" BackgroundColor="Coral" Margin="10,100,10,0" CornerRadius="10">
+            <Button 
+                Text="Start Game" 
+                BackgroundColor="White" 
+                HorizontalOptions="Center"
+                CornerRadius="10"/>
+            
+        </Frame>
+         
+    </StackLayout>
 
 </ContentPage>
