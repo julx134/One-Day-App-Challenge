@@ -18,9 +18,5 @@ namespace OneDayChallenge_App
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            DisplayAlert("Title", "Hello World", "OK");
-        }
     }
 }

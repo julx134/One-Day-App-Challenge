@@ -3,10 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:OneDayChallenge_App.Models"
              mc:Ignorable="d"
              x:Class="OneDayChallenge_App.MainPage">
 
-
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    
     <StackLayout BackgroundColor="DarkGray">
         <Frame BackgroundColor="DarkGray" HasShadow="True">
             <Label Text="One Day App Challenge" TextColor="GhostWhite" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="80"/>
@@ -39,7 +43,9 @@
                 Text="Start Game" 
                 BackgroundColor="White" 
                 HorizontalOptions="Center"
-                CornerRadius="10"/>
+                CornerRadius="10"
+                x:Name="homeButton"
+                Command="{Binding StartGame}"/>
             
         </Frame>
          
