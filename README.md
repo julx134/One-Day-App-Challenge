@@ -26,4 +26,4 @@ March 17, 2020 @1:00am:
 	-Finished settig up GamePage
 	-Learned Basic MVVM
 	-Now moving unto making GamePage UI and logic of app 
-	
+	-The rest of the 12 hours will be continued on Wednesday, March 18, 2020 at 1:00pm.
