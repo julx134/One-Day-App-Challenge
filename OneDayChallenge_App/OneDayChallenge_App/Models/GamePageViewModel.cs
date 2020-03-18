@@ -4,15 +4,22 @@ using System.Text;
 using System.ComponentModel;
 using Xamarin.Forms;
 
-namespace OneDayChallenge_App.Models 
+namespace OneDayChallenge_App.Models
 {
-    class GamePageViewModel : INotifyPropertyChanged
+    public class GamePageViewModel : INotifyPropertyChanged
     {
         public GamePageViewModel()
         {
+            StartGamePage = new Command(() =>
+           {
+
+           });
 
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public Command StartGamePage { get; }
     }
+
 }

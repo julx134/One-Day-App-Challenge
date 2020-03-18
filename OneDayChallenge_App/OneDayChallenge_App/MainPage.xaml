@@ -11,14 +11,13 @@
         <local:MainPageViewModel/>
     </ContentPage.BindingContext>
     
-    <StackLayout BackgroundColor="DarkGray">
-        <Frame BackgroundColor="DarkGray" HasShadow="True">
-            <Label Text="One Day App Challenge" TextColor="GhostWhite" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="80"/>
+    <StackLayout BackgroundColor="White">
+        <Frame BackgroundColor="Coral" HasShadow="True">
+            <Label Text="One Day App Challenge" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="80"/>
         </Frame>
-        <BoxView Color="Coral" HeightRequest="10" HorizontalOptions="Fill" CornerRadius="10" Margin="10,0,10,30"/>
         <Frame 
-            Margin="10"
-            BorderColor="White"
+            Margin="0,40,0,10"
+            BorderColor="Coral"
             CornerRadius="110"
             HeightRequest="200"
             WidthRequest="200"
@@ -35,10 +34,10 @@
         <Label 
             Padding = "0,15,0,0"
             HorizontalTextAlignment="Center"
-            TextColor="GhostWhite"
+            TextColor="Black"
             Text = "My name is Jules Gammad. This project was to see what I can accomplish in a day dedicated to learning the XAMARIN framework."
             FontSize="35"/>
-        <Frame HasShadow="True" BackgroundColor="Coral" Margin="10,100,10,0" CornerRadius="10">
+        <Frame HasShadow="True" BackgroundColor="Coral" Margin="10,100,10,0" CornerRadius="10" VerticalOptions="Fill">
             <Button 
                 Text="Start Game" 
                 BackgroundColor="White" 

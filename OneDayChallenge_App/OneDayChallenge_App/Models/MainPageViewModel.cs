@@ -12,7 +12,7 @@ namespace OneDayChallenge_App.Models
         {
             StartGame = new Command(async () =>
             {
-                var gameVM = new GamePageViewModel();
+                var gameVM = new GamePage();
 
                 var gamePage = new GamePage();
 
