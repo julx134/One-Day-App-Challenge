@@ -32,5 +32,6 @@ March 18, 2020 @1:15pm
 	-Now moving unto making UI of GamePage
 	
 March 18, 2020 @6:13pm
+
 	-Finished GamePage UI and binding context
 	-Now moving unto logic of page
