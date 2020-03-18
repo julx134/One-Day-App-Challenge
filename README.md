@@ -12,8 +12,7 @@ March 16, 2020 @ 3:21 pm:
 
 	-Officially started working on the project. Will continually track my progross in this file.
 
-	-Project description: Simple app that will ask the user for a number and have the computer guess that number in the least amount of 'guesses' as possible. 
-The computer will ask the user if the guesses is more or less than the target guess. More description to come as development progresses.
+	-Project description: Simple app that will ask the user for a number and have the computer guess that number in the least amount of 'guesses' as possible. The computer will ask the user if the guesses is more or less than the target guess. More description to come as development progresses.
 
 March 16, 2020 @ 8:25pm:
 
@@ -27,3 +26,12 @@ March 17, 2020 @1:00am:
 	-Learned Basic MVVM
 	-Now moving unto making GamePage UI and logic of app 
 	-The rest of the 12 hours will be continued on Wednesday, March 18, 2020 at 1:00pm.
+	
+March 18, 2020 @1:15pm
+	
+	-Now moving unto making UI of GamePage
+	
+March 18, 2020 @6:13pm
+
+	-Finished GamePage UI and binding context
+	-Now moving unto logic of page
