@@ -35,3 +35,9 @@ March 18, 2020 @6:13pm
 
 	-Finished GamePage UI and binding context
 	-Now moving unto logic of page
+
+March 18, 2020 @9:32pm
+
+	-Finished the logic and binding of app
+	-Challenged finished
+	
