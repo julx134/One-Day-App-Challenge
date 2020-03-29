@@ -1,6 +1,6 @@
 This project is a one day project consisting of making a very simple mobile application.
 
-In a span of a day, I will try to learn XAML, C# and the .NET framework in order to familiarize myself with mobile application development.
+In a span of 24-hours, I will try to learn XAML, C# and the .NET framework in order to familiarize myself with mobile application development.
 
 ![](MainPage.JPG)
 ![](GamePage.JPG)
